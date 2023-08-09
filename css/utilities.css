@@ -1,0 +1,92 @@
+:root {
+   /* Colors */
+   --primary-color: #11b3f3;
+   --secondary-color: #f20c0c;
+   --dark-color: #333;
+   --light-color: #f4f4f4;
+}
+
+/* Backgrounds */
+.bg-primary {
+   background: var(--primary-color);
+   color: #fff;
+}
+.bg-secondary {
+   background: var(--secondary-color);
+   color: #fff;
+}
+.bg-dark {
+   background: var(--dark-color);
+   color: #fff;
+}
+.bg-light {
+   background: var(--light-color);
+   color: var(--dark-color);
+}
+
+/* Button classes */
+.btn {
+   display: block;
+   padding: 1rem 2rem;
+   border: none;
+   border-radius: 10px;
+   background: #333;
+   color: #fff;
+}
+
+.btn-primary {
+   background: var(--primary-color);
+   color: #333;
+}
+
+.btn-secondary {
+   background: var(--secondary-color);
+   color: #fff;
+}
+
+.btn-light {
+   background: #fff;
+   color: var(--dark-color);
+}
+
+.btn-outline {
+   background: transparent;
+   color: #fff;
+   border: 1px solid #777;
+}
+
+.btn:hover {
+   opacity: 0.8;
+}
+
+/* Text classes */
+.text-primary {
+   color: var(--primary-color);
+}
+.text-secondary {
+   color: var(--secondary-color);
+}
+.text-light {
+   color: var(--light-color);
+}
+.text-dark {
+   color: var(--dark-color);
+}
+
+/* Container */
+.container {
+   max-width: 1100px;
+   margin: auto;
+}
+
+/* Typing Text */
+.typing-text {
+   font-size: 24px;
+   border-right: 2px solid #fff;
+}
+
+/* image */
+.img-size {
+   width: 300px;
+   height: 300px;
+}
