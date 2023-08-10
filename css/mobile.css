@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+   #navbar {
+      height: 110px;
+   }
+
+   #navbar .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .about-content {
+      display: flex;
+      flex-direction: column;
+   }
+
+   #icons .icon-grid {
+      grid-template-columns: 1fr;
+   }
+
+   .icon {
+      margin-bottom: 3rem;
+   }
+
+   #projects .project-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .project {
+      height: auto;
+      width: auto;
+   }
+
+   .contact-grid {
+      grid-template-columns: 1fr;
+      padding: 0 1.5rem;
+   }
+}
