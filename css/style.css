@@ -30,6 +30,7 @@ a {
    text-decoration: none;
    color: var(--dark-color);
    padding: auto;
+   cursor: pointer;
 }
 
 ul {
@@ -336,4 +337,34 @@ ul {
    justify-content: center;
    align-items: center;
    width: 100%;
+}
+
+/* footer */
+#footer {
+   margin-top: 2rem;
+   background: #444;
+}
+
+#footer .footer-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 200px;
+}
+
+.footer-content .icons {
+   padding: 0 0 1rem 0;
+}
+
+.footer-content .icons a {
+   color: #fff;
+   margin: 0 0.5rem;
+   transition: all 0.7s ease;
+}
+
+.footer-content .icons a:hover {
+   color: var(--primary-color);
+
 }
