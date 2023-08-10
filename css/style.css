@@ -283,6 +283,7 @@ ul {
 #contact .contact-form {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: auto;
    gap: 1rem;
    grid-template-areas: 
    "first last"
