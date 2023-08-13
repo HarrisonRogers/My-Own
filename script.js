@@ -56,3 +56,10 @@ function type() {
 document.addEventListener('DOMContentLoaded', () => {
   setTimeout(type, newTextDelay);
 });
+
+// Image
+window.addEventListener('scroll', function() {
+    let scrolled = window.scrollY;
+    let parallaxContainer = document.querySelector('.hero');
+    parallaxContainer.style.backgroundPositionY = (scrolled * 0.5) + 'px';
+});
